@@ -22,7 +22,7 @@ class App extends React.Component {
         <Headnav path={'/*'} />
         <Router>
           <Route path='/contact' exact render={() => <ContactPage/>} />
-          <Route path='/home' render={() => <Homepage/>}/>
+          <Route path='/' render={() => <Homepage/>}/>
           <Route path='/about' render={() => <About/>}/>
           <Route path='/portfolio' render={() => <Portfolio/>}/>
         </Router>

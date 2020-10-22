@@ -20,7 +20,7 @@ const Homepage = () => {
   </header>
   <div>
     <Menu styles={ styles }>
-      <a id="home" className="menuItem" href="/home"><span aria-hidden="true" ></span>Home</a>
+      <a id="home" className="menuItem" href="/"><span aria-hidden="true" ></span>Home</a>
       <a id="about" className="menuItem" href="/about"><span aria-hidden="true" ></span>About</a>
       <a id="portfolio" className="menuItem" href='/portfolio'><span aria-hidden="true"></span>Portfolio</a>
       <a id="contact" className="menuItem" href="/contact"> <span aria-hidden="true"></span>Contact</a>
