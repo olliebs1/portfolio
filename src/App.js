@@ -15,10 +15,10 @@ class App extends React.Component {
       <div className="App">
         <Headnav path={'/*'} />
         <Router>
-          <Route path='*/contact' exact render={() => <ContactPage/>} />
-          <Route path='*/home' render={() => <Homepage/>}/>
-          <Route path='*/about' render={() => <About/>}/>
-          <Route path='*/portfolio' render={() => <Portfolio/>}/>
+          <Route path='http://www.obs-portfolio.co.uk/contact' exact render={() => <ContactPage/>} />
+          <Route path='http://www.obs-portfolio.co.uk/home' render={() => <Homepage/>}/>
+          <Route path='http://www.obs-portfolio.co.uk/about' render={() => <About/>}/>
+          <Route path='http://www.obs-portfolio.co.uk/portfolio' render={() => <Portfolio/>}/>
         </Router>
       </div>
     );
