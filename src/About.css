@@ -9,19 +9,16 @@
     padding-top: 20px;
   }
   
-  /* Control the left side */
   .left {
     left: 0;
     background-color:#282c34;
   }
   
-  /* Control the right side */
   .right {
     right: 0;
     background-color: #ffff00;
   }
   
-  /* If you want the content centered horizontally and vertically */
   .centered {
     position: absolute;
     top: 40%;
@@ -39,7 +36,6 @@
     text-align: center;
   }
   
-  /* Style the image inside the centered container, if needed */
   .centered img {
     width: 150px;
     border-radius: 50%;
@@ -55,11 +51,6 @@
 .w3-text-grey, .w3-hover-text-grey:hover, .w3-text-gray, .w3-hover-text-gray:hover {
     color: #f30e0e!important;
 }
-
-/* .w3-white, .w3-hover-white:hover {
-    color: rgb(233, 16, 16)!important;
-    background-color: #fff!important;
-} */
 
 .w3-teal, .w3-hover-teal:hover {
     color: #fff!important;
@@ -87,11 +78,3 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
-/* 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-} */

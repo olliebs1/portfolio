@@ -2,12 +2,6 @@ import React from 'react';
 import { Router } from '@reach/router'
 import { Route} from 'react-router-dom';
 import ContactPage from '../src/pages/ContactPage'
-// import { SocialIcon } from 'react-social-icons';
-// import './App.css';
-// import { stack as Menu } from 'react-burger-menu';
-// import styles from '../src/Styles'
-// import About from './pages/About.jsx'
-// import StarfieldAnimation from 'react-starfield-animation'
 import Headnav from './pages/Headnav'
 import Homepage from './pages/Homepage';
 import About from './pages/About';
