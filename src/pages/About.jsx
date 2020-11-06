@@ -8,7 +8,7 @@ export default class About extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className="container">
         <ScrollLock/>
         <div class="split left">
           <div class="centered">

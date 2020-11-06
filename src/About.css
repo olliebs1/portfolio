@@ -7,45 +7,81 @@
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
-  }
-  
-  .left {
-    left: 0;
-    background-color:black;
-  }
-  
-  .right {
-    right: 0;
-    background-color: #ffff00;
-  }
-  
-  .centered {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+}
 
-  .rightCentered {
-    padding: 100px;
-    position: relative;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+@media only screen and (max-width: 800px) {
+  .split {
+    height: 100% !important;
+    max-width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
   }
-  
-  .centered img {
-    width: 150px;
-    border-radius: 50%;
-  }
-
   .aboutInfo {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 300px;
+    margin-bottom: 125px !important;
     text-align: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem !important;
+    font-weight: 200 !important;
     font-family: 'Courier New', Courier, monospace;
+  }
+  .rightCentered {
+    position: relative;
+    top: 40% !important;
+    left: 25% !important;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+} 
+
+.left {
+  left: 0;
+  background-color:black;
+}
+  
+.right {
+  right: 0;
+  background-color: #1400C6;
+}
+  
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.rightCentered {
+  padding: 100px;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.rightCentered > p {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+  
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.aboutInfo {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 200;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .w3-text-grey, .w3-hover-text-grey:hover, .w3-text-gray, .w3-hover-text-gray:hover {
@@ -58,12 +94,13 @@
 }
 
 .w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
-    color: #000!important;
+    color: black!important;
     background-color: #f1f1f1!important;
 }
 
 .w3-small {
     font-size: 30px!important;
+    font-weight: 300;
 }
 
 .w3-round-xlarge {

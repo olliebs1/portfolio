@@ -22,7 +22,7 @@ class Homepage extends React.Component {
                         }
                     },
                     'color': {
-                        'value': ['#ffff00', '#00FFFF', '#FF0000', '#32CD32']
+                        'value': ['#ff0028', '#1400C6', '#beef00', '#FFE400']
                       },
                       'line_linked': {
                         'color': '#ffff00',
