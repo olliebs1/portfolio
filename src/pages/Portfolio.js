@@ -9,6 +9,11 @@ import Button from "@material-ui/core/Button";
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import '../Portfolio.css'
+import json2mq from 'json2mq';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
+
+
+
 
 const useStyles = makeStyles(() => ({
   root: {
@@ -20,8 +25,6 @@ const useStyles = makeStyles(() => ({
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 15,
-    height: '50%'
-    
   },
   title: {
     fontSize: 14
@@ -35,13 +38,19 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
+
 export default function App() {
   const classes = useStyles();
+  const matches = useMediaQuery(
+    json2mq({
+      minWidth: 600,
+    }),
+  );
   
   let cardStyle = {
     height: '28vw',
     font: 'Courier New, Courier, monospace',
-    }
+  }
 
   return (
     <div className='portfolioPage'>
@@ -54,7 +63,7 @@ export default function App() {
       alignItems = "center"
     >
       <Grid item xs={12} sm={6} md={4} >
-      <Card className={classes.root} style={cardStyle} >
+      <Card className={classes.root} style={matches ? cardStyle : cardStyle={height: 'auto'}} >
       <CardActionArea>
         <CardMedia
           className={classes.media}

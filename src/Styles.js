@@ -19,8 +19,8 @@ let styles = {
     },
     bmCrossButton: {
       paddingBottom: '60px',
-      height: '30px',
-      width: '30px'
+      height: '17px',
+      width: '17px'
     },
     bmCross: {
       background: '#ffff00'
@@ -30,7 +30,7 @@ let styles = {
       height: '100%',
     },
     bmMenu: {
-      background: '#373A47',
+      background: 'black',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em'
     },

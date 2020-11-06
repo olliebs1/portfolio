@@ -5,7 +5,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-color: #282c34;;
+   background-color: black;;
  }
  
  .form-wrapper {
@@ -104,6 +104,7 @@
  .sendEmail button {
    background-color: yellow;
    border-radius: 5px;
+   border: none;
    color: #282c34;
    width: 100%;
    margin-top: 1em;
@@ -116,5 +117,6 @@
  
  .sendEmail button:hover {
    color: yellow;
-   background-color: #282c34;
+   background-color: black;
+   border: 1px solid white;
  }
