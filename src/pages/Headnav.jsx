@@ -12,9 +12,9 @@ const Homepage = () => {
     <div>
     <header>
       <div className="icons"> 
-        <a href='https://www.linkedin.com/in/olivier-benson-smith/' target="_blank" rel="noopener noreferrer" ><SocialIcon network="linkedin" bgColor='#ffff00' style={{ height: 40, width: 40 }}/></a>
-        <a href='https://github.com/olliebs1' target="_blank" rel="noopener noreferrer"><SocialIcon network="github" bgColor='#ffff00' style={{ height: 40, width: 40 }}/></a>
-        <a href='/contact'><SocialIcon network="email" bgColor='#ffff00' style={{ height: 40, width: 40 }}/></a>
+        <a href='https://www.linkedin.com/in/olivier-benson-smith/' target="_blank" rel="noopener noreferrer" ><SocialIcon network="linkedin" bgColor='#ffffff' style={{ height: 40, width: 40 }}/></a>
+        <a href='https://github.com/olliebs1' target="_blank" rel="noopener noreferrer"><SocialIcon network="github" bgColor='#ffffff' style={{ height: 40, width: 40 }}/></a>
+        <a href='/contact'><SocialIcon network="email" bgColor='#ffffff' style={{ height: 40, width: 40 }}/></a>
       </div>
       <img src="https://codetheweb.blog/assets/img/icon2.png" className='imgLogo' alt=''/>
     </header>

@@ -22,7 +22,7 @@ class Homepage extends React.Component {
                         }
                     },
                     'color': {
-                        'value': ['#ff0028', '#1400C6', '#beef00', '#FFE400']
+                        'value': ['#ff0028', '#1400c6']
                       },
                       'line_linked': {
                         'color': '#ffff00',
@@ -30,7 +30,7 @@ class Homepage extends React.Component {
                         "enable": true
                       },
                     "move": {
-                        "speed": 1
+                        "speed": 2
                     },
                     "size": {
                         "value": 4
@@ -38,7 +38,7 @@ class Homepage extends React.Component {
                     "opacity": {
                         "anim": {
                             "enable": true,
-                            "speed": 2,
+                            "speed": 3,
                             "opacity_min": 0.05
                         }
                     }

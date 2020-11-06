@@ -32,7 +32,7 @@
  h1 {
    text-align: center;
    width: 100%;
-   color: yellow;
+   color: #ff0028;
    font-weight: lighter;
    font-family: 'Courier New', Courier, monospace;
  }
@@ -40,7 +40,7 @@
  label {
    font-size: 0.8em;
    margin-bottom: 0.25em;
-   color: yellow;
+   color: #ff0028;
    font-weight: lighter;
  }
  
@@ -108,7 +108,7 @@
  }
  
  .sendEmail button {
-   background-color: yellow;
+   background-color: #ff0028;
    border-radius: 5px;
    border: none;
    color: #282c34;
@@ -122,7 +122,7 @@
  }
  
  .sendEmail button:hover {
-   color: yellow;
+   color: #ff0028;
    background-color: black;
    border: 1px solid white;
  }
