@@ -12,7 +12,7 @@ let styles = {
       padding: '10px, 10px, 10px'
     },
     bmBurgerBars: {
-      background: '#ffffff'
+      background: '#000000'
     },
     bmBurgerBarsHover: {
       background: '#A90000'
@@ -23,14 +23,14 @@ let styles = {
       width: '17px'
     },
     bmCross: {
-      background: '#ffffff'
+      background: '#000000'
     },
     bmMenuWrap: {
       position: 'fixed',
       height: '100%',
     },
     bmMenu: {
-      background: '#07142D',
+      background: '#00471A',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em'
     },

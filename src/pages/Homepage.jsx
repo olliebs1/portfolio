@@ -18,15 +18,16 @@ class Homepage extends React.Component {
                         "value": 300,
                         "density": {
                             "enable": true,
-                            "value_area":4000
+                            "value_area":4000,
+                            "opacity":100,
                         }
                     },
                     'color': {
-                        'value': ['#04BF45', '#2A2A2A', '#A68E46']
+                        'value': ['#19FF39', '#46B801', '#00471A']
                       },
                       'line_linked': {
                         'color': '#000000',
-                        'opacity': 0.2,
+                        'opacity': 0.5,
                         "enable": true
                       },
                     "move": {
@@ -39,7 +40,7 @@ class Homepage extends React.Component {
                         "anim": {
                             "enable": true,
                             "speed": 3,
-                            "opacity_min": 0.05
+                            "opacity_min": 0.1
                         }
                     }
                 },

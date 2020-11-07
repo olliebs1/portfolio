@@ -25,7 +25,7 @@ export default class TypingComponent extends Component {
 
 
         <a class="linkButton" href={'/portfolio'}>
-            <i class="fas fa-chevron-circle-right fa-lg" style={{color: "white"}} ></i>
+            <i class="fas fa-chevron-circle-right fa-lg" style={{color: "black"}} ></i>
         </a>}
        </div>
       </div>
