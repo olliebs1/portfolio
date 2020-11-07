@@ -40,12 +40,12 @@
 
 .left {
   left: 0;
-  background-color:black;
+  background-color:rgb(7, 20, 45);
 }
   
 .right {
   right: 0;
-  background-color: #1400C6;
+  background-color: #1d2d07;
 }
   
 .centered {

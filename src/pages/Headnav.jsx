@@ -16,7 +16,7 @@ const Homepage = () => {
         <a href='https://github.com/olliebs1' target="_blank" rel="noopener noreferrer"><SocialIcon network="github" bgColor='#ffffff' style={{ height: 40, width: 40 }}/></a>
         <a href='/contact'><SocialIcon network="email" bgColor='#ffffff' style={{ height: 40, width: 40 }}/></a>
       </div>
-      <img src="https://codetheweb.blog/assets/img/icon2.png" className='imgLogo' alt=''/>
+      {/* <img src="https://codetheweb.blog/assets/img/icon2.png" className='imgLogo' alt=''/> */}
     </header>
       <div>
         <Menu styles={ styles }>

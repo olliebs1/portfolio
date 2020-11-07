@@ -10,7 +10,8 @@ export default class TypingComponent extends Component {
     }
 
     render() {
-    return (
+
+      return (
       <div className="typing">
         <Typing onFinishedTyping={() => {
             this.setState({finishedTyping: true, open: true})
@@ -21,17 +22,12 @@ export default class TypingComponent extends Component {
         </Typing>
       <div>
         {this.state.finishedTyping === false ? '' : 
+
+
         <a class="linkButton" href={'/portfolio'}>
-          <div class="center-con">
-            <div class="round">
-                <div id="cta">
-                  <span class="arrow primera next "></span>
-                  <span class="arrow segunda next "></span>
-                </div>
-            </div>
-          </div>
+            <i class="fas fa-chevron-circle-right fa-lg" style={{color: "white"}} ></i>
         </a>}
-        </div>
+       </div>
       </div>
     );
   }

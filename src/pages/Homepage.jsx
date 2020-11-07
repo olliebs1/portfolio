@@ -22,10 +22,10 @@ class Homepage extends React.Component {
                         }
                     },
                     'color': {
-                        'value': ['#ff0028', '#1400c6']
+                        'value': ['#04BF45', '#2A2A2A', '#A68E46']
                       },
                       'line_linked': {
-                        'color': '#ffff00',
+                        'color': '#000000',
                         'opacity': 0.2,
                         "enable": true
                       },

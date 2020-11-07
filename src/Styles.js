@@ -30,7 +30,7 @@ let styles = {
       height: '100%',
     },
     bmMenu: {
-      background: 'black',
+      background: '#07142D',
       padding: '2.5em 1.5em 0',
       fontSize: '1.15em'
     },
@@ -40,7 +40,7 @@ let styles = {
     bmItem: {
       font:'Courier New, Courier, monospace;',
       fontSize: '24px',
-      color: 'yellow',
+      color: '#A68E46',
       textDecoration: 'none',
       padding: '14.72px',
       outline: 'none',

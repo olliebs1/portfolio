@@ -1,10 +1,11 @@
 .typing {
     text-align: center;
     padding-top: 25%;
-    color: white;
+    color: #2A2A2A;
     font-size: 2.3rem;
     font-weight: 200;
     font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -0.2rem;
 }
 
 @media only screen and (max-width: 850px) {
@@ -12,10 +13,11 @@
         padding: 15px;
         text-align: center;
         padding-top: 50% !important;
-        color: white;
+        color: #2A2A2A;
         font-size: 1rem !important;
         font-weight: 200;
         font-family: 'Courier New', Courier, monospace;
+        letter-spacing: -0.175rem !important;
     }
     .linkButton {
         transition: ms=500 opacity ease-in;
@@ -27,7 +29,6 @@
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         position: absolute;
-        border: 3px solid #ff0028;
         width: 50px;
         height: 50px;
         border-radius: 100%;
@@ -40,24 +41,17 @@
     font-family: 'Courier New, Courier, monospace',;
     font-weight: 400;
     line-height: 1.334;
-    letter-spacing: 0em;
+    letter-spacing: 1.5em;
 }
 
 
 .linkButton {
-    transition: ms=500 opacity ease-in;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: 40%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    position: absolute;
-    border: 3px solid #ff0028;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 175px;
+    border: none;
 }
 
 #cta{

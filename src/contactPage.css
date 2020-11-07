@@ -5,7 +5,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-color: black;;
+   background-color: #A68E46;
  }
  
  .form-wrapper {
@@ -32,7 +32,7 @@
  h1 {
    text-align: center;
    width: 100%;
-   color: #ff0028;
+   color: #1d2d07;
    font-weight: lighter;
    font-family: 'Courier New', Courier, monospace;
  }
@@ -40,7 +40,7 @@
  label {
    font-size: 0.8em;
    margin-bottom: 0.25em;
-   color: #ff0028;
+   color: #1d2d07;
    font-weight: lighter;
  }
  
@@ -108,10 +108,10 @@
  }
  
  .sendEmail button {
-   background-color: #ff0028;
+   background-color: #1d2d07;
    border-radius: 5px;
    border: none;
-   color: #282c34;
+   color: #A68E46;
    width: 100%;
    margin-top: 1em;
    padding: 8px 0px;
@@ -122,7 +122,7 @@
  }
  
  .sendEmail button:hover {
-   color: #ff0028;
-   background-color: black;
+   color: #1d2d07;
+   background-color: #A68E46;
    border: 1px solid white;
  }
