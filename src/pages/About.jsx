@@ -9,7 +9,7 @@ export default class About extends React.Component {
   render () {
     return (
       <div className="container">
-        <ScrollLock/>
+      <ScrollLock/>
         <div class="split left">
           <div class="centered">
               <p className='aboutInfo'>
@@ -20,7 +20,7 @@ export default class About extends React.Component {
 
         <div class="split right">
         <div class="rightCentered">
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+            <p className='aboutHeaderRight'>Skills</p>
             <p>Javascript</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
               <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'90%'}}>90%</div>

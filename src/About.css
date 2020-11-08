@@ -64,12 +64,12 @@
 
 .left {
   left: 0;
-  background-color:rgb(0, 0, 0);
+  background-color: #FF4500;
 }
   
 .right {
   right: 0;
-  background-color: #153609;
+  background-color: transparent;
 }
   
 .centered {
@@ -83,7 +83,7 @@
 .rightCentered {
   padding: 100px;
   position: relative;
-  top: 40%;
+  height: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -93,6 +93,15 @@
   font-size: 20px;
   font-weight: 500;
   color: black;
+}
+
+.aboutHeaderRight {
+  text-align: center;
+  padding-top: 50%;
+  color: #000000;
+  font-size: 3rem !important;
+  font-weight: 200;
+  font-family: 'Zilla Slab Highlight', cursive;
 }
   
 .centered img {
@@ -107,13 +116,9 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.w3-text-grey, .w3-hover-text-grey:hover, .w3-text-gray, .w3-hover-text-gray:hover {
-    color: #f30e0e!important;
-}
-
 .w3-teal, .w3-hover-teal:hover {
     color: gainsboro !important;
-    background-color: black!important;
+    background-color: #FF4500!important;
 }
 
 .w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {

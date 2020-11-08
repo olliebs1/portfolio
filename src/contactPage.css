@@ -86,7 +86,6 @@
    margin-bottom: 15px;
  }
 
- 
  .firstName,
  .lastName {
    width: 49%;
@@ -95,7 +94,6 @@
  .email  {
   width: 100%;
 }
- 
  
  .message {
    width: 97%;
@@ -109,10 +107,10 @@
  }
  
  .sendEmail button {
-   background-color: #00471A;
+   background-color: #000000;
    border-radius: 5px;
    border: 1px solid black;
-   color: #000000;
+   color: gainsboro;
    width: 100%;
    margin-top: 1em;
    padding: 8px 0px;
@@ -124,7 +122,6 @@
  
  .sendEmail button:hover {
    padding: 7px 0px;
-   color: #00471A;
-   background-color: #000000;
-   border: 2px solid #00471A;
+   color: #000000;
+   background-color: #ff4500;
  }

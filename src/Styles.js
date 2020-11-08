@@ -12,7 +12,7 @@ let styles = {
       padding: '10px, 10px, 10px'
     },
     bmBurgerBars: {
-      background: '#000000'
+      background: '#000000',
     },
     bmCrossButton: {
       paddingBottom: '60px',
@@ -27,11 +27,8 @@ let styles = {
       height: '100%',
     },
     bmMenu: {
-      background: '#153609',
+      background: 'gainsboro',
       padding: '5em 1.5em 0',
-    },
-    bmMorphShape: {
-      fill: '#153609'
     },
     bmItem: {
       fontSize: '2em',
