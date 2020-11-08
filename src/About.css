@@ -148,7 +148,4 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-input[type="text"]:focus,
-textarea:focus {
-    -webkit-text-size-adjust: 100%;
-}
+input, select { font-size: 100%; }
