@@ -17,7 +17,7 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 const useStyles = makeStyles(() => ({
   root: {
-    backgroundColor: 'gainsboro',
+    backgroundColor: '#CEE0CF',
     border: '2px solid black',
     maxWidth: 450,
     marginTop: '20%',
@@ -49,7 +49,7 @@ export default function App() {
   
   let cardStyle = {
     height: '28vw',
-    font: 'Courier New, Courier, monospace',
+    font: 'Raleway, sans-serif'
   }
 
   return (
@@ -82,7 +82,7 @@ export default function App() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button class='button' >
+        {/* <Button class='button' >
           <a
             href="https://github.com/olliebs1"
             target="_blank"
@@ -90,7 +90,7 @@ export default function App() {
             className='buttonText'>
             Learn more
           </a>
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
       </Grid>
@@ -115,7 +115,7 @@ export default function App() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button class='button'>
+        {/* <Button class='button'>
           <a
             href="https://github.com/olliebs1/FE-Nc-Knews"
             target="_blank"
@@ -134,7 +134,7 @@ export default function App() {
           >
             Website
           </a>
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
       </Grid>
@@ -160,7 +160,7 @@ export default function App() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button class='button'>
+        {/* <Button class='button'>
           <a
             href="https://github.com/olliebs1/AIrene"
             target="_blank"
@@ -169,7 +169,7 @@ export default function App() {
           >
             Learn more
           </a>
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
       </Grid>
@@ -194,7 +194,7 @@ export default function App() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button class='button'>
+        {/* <Button class='button'>
           <a
             href="https://github.com/olliebs1/FacialRecognition"
             target="_blank"
@@ -203,7 +203,7 @@ export default function App() {
           >
             Learn more
           </a>
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
       </Grid>
@@ -227,7 +227,7 @@ export default function App() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button class='button'>
+        {/* <Button class='button'>
           <a
             href="https://github.com/olliebs1/flappyBird"
             target="_blank"
@@ -236,7 +236,7 @@ export default function App() {
           >
             Learn more
           </a>
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
       </Grid>
@@ -260,7 +260,7 @@ export default function App() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button class='button'>
+        {/* <Button class='button'>
           <a
             href="https://github.com/olliebs1/ProductivityApp"
             target="_blank"
@@ -269,7 +269,7 @@ export default function App() {
           >
             Learn more
           </a>
-        </Button>
+        </Button> */}
       </CardActions>
     </Card>
       </Grid>

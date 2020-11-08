@@ -14,9 +14,6 @@ let styles = {
     bmBurgerBars: {
       background: '#000000'
     },
-    bmBurgerBarsHover: {
-      background: '#A90000'
-    },
     bmCrossButton: {
       paddingBottom: '60px',
       height: '17px',
@@ -31,24 +28,17 @@ let styles = {
     },
     bmMenu: {
       background: '#153609',
-      padding: '2.5em 1.5em 0',
-      fontSize: '1.15em'
+      padding: '5em 1.5em 0',
     },
     bmMorphShape: {
-      fill: '#373A47'
+      fill: '#153609'
     },
     bmItem: {
-      fontSize: '24px',
+      fontSize: '2em',
       color: '#000000',
       textDecoration: 'none',
       padding: '14.72px',
       outline: 'none',
-    },
-    bmItemHover: {
-      color: 'red'
-    },
-    bmOverlay: {
-      background: 'rgba(0, 0, 0, 0.3)'
     },
   }
 
