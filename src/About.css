@@ -19,7 +19,7 @@
     overflow-x: hidden;
   }
   .aboutInfo {
-    padding-right: 0;
+    /* padding-right: 0;
     padding-left: 0;
     padding-top: 360px;
     margin-bottom: 125px !important;
@@ -27,7 +27,13 @@
     color: white;
     font-size: 1rem !important;
     font-weight: 200 !important;
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;  */
+    width: 100%;
+    font-size: 1rem !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
    }
   .rightCentered {
     padding-top: 162px !important;
@@ -111,7 +117,7 @@ html, body, h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
 }
 
-html {
+/* html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-}
+} */
