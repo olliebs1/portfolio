@@ -148,4 +148,4 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-input, select { font-size: 100%; }
+input, select, label { font-size: 100%; }
