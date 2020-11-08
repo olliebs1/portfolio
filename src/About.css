@@ -21,7 +21,7 @@
   .aboutInfo {
     padding-right: 0;
     padding-left: 0;
-    padding-top: 300px;
+    padding-top: 360px;
     margin-bottom: 125px !important;
     text-align: center;
     color: white;
@@ -30,6 +30,7 @@
     font-family: 'Raleway', sans-serif; 
    }
   .rightCentered {
+    padding-top: 162px !important;
     position: relative;
     top: 40% !important;
     left: 25% !important;

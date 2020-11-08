@@ -16,7 +16,7 @@ export default class TypingComponent extends Component {
         <Typing onFinishedTyping={() => {
             this.setState({finishedTyping: true, open: true})
         }}>
-                <span className='typing'>Hello my name is Olivier Benson-Smith.</span>
+                <span className='typing'>Hello, my name is Olivier Benson-Smith.</span>
                 <br></br>
                 <span> I am a Full-Stack Developer.</span>
         </Typing>

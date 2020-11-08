@@ -46,7 +46,7 @@ export default function App() {
   );
   
   let cardStyle = {
-    height: '28vw',
+    height: '22vw',
     font: 'Raleway, sans-serif'
   }
 
@@ -54,7 +54,6 @@ export default function App() {
     <div className='portfolioPage'>
     <Grid
       container
-      spacing={0}
       direction='row'
       className={classes.gridContainer}
       justify="center"
@@ -62,7 +61,7 @@ export default function App() {
     >
       <Grid item xs={12} sm={6} md={4} >
       <Card className={classes.root} style={matches ? cardStyle : cardStyle={height: 'auto'}}>
-      <CardActionArea href="https://github.com/olliebs1">
+      <CardActionArea target="_blank" href="https://github.com/olliebs1">
         <CardMedia
           className={classes.media}
           image="https://poeticbusiness.co.uk/wp-content/uploads/2020/02/1580817669_maxresdefault.jpg"
@@ -83,7 +82,7 @@ export default function App() {
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.root} style={cardStyle}>
-      <CardActionArea href="https://github.com/olliebs1/FE-Nc-Knews">
+      <CardActionArea target="_blank" href="https://github.com/olliebs1/FE-Nc-Knews">
         <CardMedia
           className={classes.media}
           image="https://www.techlicious.com/images/misc/reading-news-700px.jpg"
@@ -105,7 +104,7 @@ export default function App() {
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.root} style={cardStyle}>
-      <CardActionArea href="https://github.com/olliebs1/AIrene">
+      <CardActionArea target="_blank" href="https://github.com/olliebs1/AIrene">
         <CardMedia
           className={classes.media}
           image="https://github.com/projectgrotch/project-fe/blob/dev/assets/icon/icon.png?raw=true"
@@ -129,7 +128,7 @@ export default function App() {
       <br></br>
       <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.root} style={cardStyle}>
-      <CardActionArea href="https://github.com/olliebs1/FacialRecognition">
+      <CardActionArea target="_blank" href="https://github.com/olliebs1/FacialRecognition">
         <CardMedia
           className={classes.media}
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGlZBK_8uYZukpelHYgZd3jK4nIcD8JR0KsQ&usqp=CAU"
@@ -150,7 +149,7 @@ export default function App() {
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.root} style={cardStyle}>
-      <CardActionArea href="https://github.com/olliebs1/flappyBird">
+      <CardActionArea target="_blank" href="https://github.com/olliebs1/flappyBird">
         <CardMedia
           className={classes.media}
           image="https://hackaday.com/wp-content/uploads/2014/07/game.gif?w=300"
@@ -171,7 +170,7 @@ export default function App() {
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.root} style={cardStyle}>
-      <CardActionArea href="https://github.com/olliebs1/ProductivityApp">
+      <CardActionArea target="_blank" href="https://github.com/olliebs1/ProductivityApp">
         <CardMedia
           className={classes.media}
           image="https://content.thriveglobal.com/wp-content/uploads/2019/12/Efficiency-Productivity.png"
