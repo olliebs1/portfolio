@@ -2,10 +2,8 @@ import React from "react";
 import Card from '@material-ui/core/Card';
 import { Grid } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardActionArea from "@material-ui/core/CardActionArea";
-import Button from "@material-ui/core/Button";
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 import '../Portfolio.css'
@@ -63,8 +61,8 @@ export default function App() {
       alignItems = "center"
     >
       <Grid item xs={12} sm={6} md={4} >
-      <Card className={classes.root} style={matches ? cardStyle : cardStyle={height: 'auto'}} >
-      <CardActionArea>
+      <Card className={classes.root} style={matches ? cardStyle : cardStyle={height: 'auto'}}>
+      <CardActionArea href="https://github.com/olliebs1">
         <CardMedia
           className={classes.media}
           image="https://poeticbusiness.co.uk/wp-content/uploads/2020/02/1580817669_maxresdefault.jpg"
@@ -81,22 +79,11 @@ export default function App() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        {/* <Button class='button' >
-          <a
-            href="https://github.com/olliebs1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='buttonText'>
-            Learn more
-          </a>
-        </Button> */}
-      </CardActions>
     </Card>
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.root} style={cardStyle}>
-      <CardActionArea>
+      <CardActionArea href="https://github.com/olliebs1/FE-Nc-Knews">
         <CardMedia
           className={classes.media}
           image="https://www.techlicious.com/images/misc/reading-news-700px.jpg"
@@ -114,33 +101,11 @@ export default function App() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        {/* <Button class='button'>
-          <a
-            href="https://github.com/olliebs1/FE-Nc-Knews"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='buttonText'
-          >
-            Learn more
-          </a>
-        </Button>
-         <Button class='button'>
-          <a
-            href="https://github.com/olliebs1/FE-Nc-Knews"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='buttonText'
-          >
-            Website
-          </a>
-        </Button> */}
-      </CardActions>
     </Card>
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.root} style={cardStyle}>
-      <CardActionArea>
+      <CardActionArea href="https://github.com/olliebs1/AIrene">
         <CardMedia
           className={classes.media}
           image="https://github.com/projectgrotch/project-fe/blob/dev/assets/icon/icon.png?raw=true"
@@ -159,24 +124,12 @@ export default function App() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        {/* <Button class='button'>
-          <a
-            href="https://github.com/olliebs1/AIrene"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='buttonText'
-          >
-            Learn more
-          </a>
-        </Button> */}
-      </CardActions>
     </Card>
       </Grid>
       <br></br>
       <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.root} style={cardStyle}>
-      <CardActionArea>
+      <CardActionArea href="https://github.com/olliebs1/FacialRecognition">
         <CardMedia
           className={classes.media}
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSGlZBK_8uYZukpelHYgZd3jK4nIcD8JR0KsQ&usqp=CAU"
@@ -193,23 +146,11 @@ export default function App() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        {/* <Button class='button'>
-          <a
-            href="https://github.com/olliebs1/FacialRecognition"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='buttonText'
-          >
-            Learn more
-          </a>
-        </Button> */}
-      </CardActions>
     </Card>
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.root} style={cardStyle}>
-      <CardActionArea>
+      <CardActionArea href="https://github.com/olliebs1/flappyBird">
         <CardMedia
           className={classes.media}
           image="https://hackaday.com/wp-content/uploads/2014/07/game.gif?w=300"
@@ -226,23 +167,11 @@ export default function App() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        {/* <Button class='button'>
-          <a
-            href="https://github.com/olliebs1/flappyBird"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='buttonText'
-          >
-            Learn more
-          </a>
-        </Button> */}
-      </CardActions>
     </Card>
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
       <Card className={classes.root} style={cardStyle}>
-      <CardActionArea>
+      <CardActionArea href="https://github.com/olliebs1/ProductivityApp">
         <CardMedia
           className={classes.media}
           image="https://content.thriveglobal.com/wp-content/uploads/2019/12/Efficiency-Productivity.png"
@@ -259,18 +188,6 @@ export default function App() {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        {/* <Button class='button'>
-          <a
-            href="https://github.com/olliebs1/ProductivityApp"
-            target="_blank"
-            rel="noopener noreferrer"
-            className='buttonText'
-          >
-            Learn more
-          </a>
-        </Button> */}
-      </CardActions>
     </Card>
       </Grid>
     </Grid>
