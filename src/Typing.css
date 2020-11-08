@@ -2,10 +2,9 @@
     text-align: center;
     padding-top: 25%;
     color: #000000;
-    font-size: 2.3rem;
+    font-size: 3rem;
     font-weight: 200;
-    font-family: 'Feltro eroded';
-    letter-spacing: -0.2rem;
+    font-family: 'Zilla Slab Highlight', cursive;
 }
 
 @media only screen and (max-width: 850px) {
@@ -13,11 +12,10 @@
         padding: 15px;
         text-align: center;
         padding-top: 50% !important;
-        color: #2A2A2A;
+        color: #000000;
         font-size: 1rem !important;
         font-weight: 200;
-        font-family: 'Courier New', Courier, monospace;
-        letter-spacing: -0.175rem !important;
+        font-family: 'Zilla Slab Highlight', cursive;
     }
     .linkButton {
         transition: ms=500 opacity ease-in;

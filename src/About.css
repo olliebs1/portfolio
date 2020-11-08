@@ -27,8 +27,8 @@
     color: white;
     font-size: 1rem !important;
     font-weight: 200 !important;
-    font-family: 'Courier New', Courier, monospace;
-  }
+    font-family: 'Raleway', sans-serif; 
+   }
   .rightCentered {
     position: relative;
     top: 40% !important;
@@ -45,7 +45,7 @@
   
 .right {
   right: 0;
-  background-color: #00471A;
+  background-color: #153609;
 }
   
 .centered {
@@ -79,9 +79,8 @@
 .aboutInfo {
   text-align: center;
   color: #42423A;
-  font-size: 1.5rem;
-  font-weight: 200;
-  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.75rem;
+  font-family: 'Raleway', sans-serif;
 }
 
 .w3-text-grey, .w3-hover-text-grey:hover, .w3-text-gray, .w3-hover-text-gray:hover {
@@ -89,13 +88,13 @@
 }
 
 .w3-teal, .w3-hover-teal:hover {
-    color: #fff!important;
+    color: #42423A!important;
     background-color: black!important;
 }
 
 .w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
     color: black!important;
-    background-color: #f1f1f1!important;
+    background-color: #42423A!important;
 }
 
 .w3-small {
@@ -108,7 +107,7 @@
 }
 
 html, body, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: 'Raleway', sans-serif;
 }
 
 html {

@@ -34,7 +34,7 @@
    width: 100%;
    color: #000000;
    font-weight: lighter;
-   font-family: 'Courier New', Courier, monospace;
+   font-family: 'Raleway', sans-serif;
  }
  
  label {
@@ -45,7 +45,7 @@
  }
  
  input, textarea {
-   font-family: 'Courier New', Courier, monospace;
+  font-family: 'Raleway', sans-serif;
    padding: 10px 10px;
    border-radius: 5px;
    outline: none;
@@ -108,10 +108,10 @@
  }
  
  .sendEmail button {
-   background-color: #000000;
+   background-color: #00471A;
    border-radius: 5px;
-   border: none;
-   color: #A68E46;
+   border: 1px solid black;
+   color: #000000;
    width: 100%;
    margin-top: 1em;
    padding: 8px 0px;
@@ -122,7 +122,7 @@
  }
  
  .sendEmail button:hover {
-   color: #000000;
-   background-color: #00471A;
-   border: 1px solid black;
+   color: #00471A;
+   background-color: #000000;
+   border: 2px solid #00471A;
  }
