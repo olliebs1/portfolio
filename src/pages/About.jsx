@@ -23,33 +23,33 @@ export default class About extends React.Component {
             <p className='aboutHeaderRight'>Skills</p>
             <p>Javascript</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'90%'}}>90%</div>
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'60%'}}>60%</div>
             </div>
             <p>React</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'80%'}}>
-                <div class="w3-center w3-text-white">80%</div>
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'60%'}}>
+                <div class="w3-center w3-text-white">60%</div>
               </div>
             </div>
             <p>Python</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'75%'}}>75%</div>
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'20%'}}>20%</div>
             </div>
             <p>Node.js</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'75%'}}>75%</div>
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'60%'}}>60%</div>
             </div>
             <p>HTML/CSS</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'75%'}}>75%</div>
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'60%'}}>60%</div>
             </div>
             <p>Flutter</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'50%'}}>50%</div>
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'10%'}}>10%</div>
             </div>
             <p>Dart</p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
-              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'75%'}}>75%</div>
+              <div class="w3-container w3-center w3-round-xlarge w3-teal" style={{width:'10%'}}>10%</div>
             </div>
         </div>
         </div>
